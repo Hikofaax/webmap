@@ -200,10 +200,10 @@ var at = -620;
 
 L.marker([as,at], {icon: customIcon(32)}).addTo(Icons["Jewelry"]).bindPopup('Vangelico Jewerly');
 
-var aw = -630;
-var ax = -530;
+var au = -630;
+var av = -530;
 
-L.marker([aw,ax], {icon: customIcon(11}).addTo(Icons["Gouvernement"]).bindPopup('Government of Los Santos');
+L.marker([au,av], {icon: customIcon(11)}).addTo(Icons["Gouvernement"]).bindPopup('Government of Los Santos');
 
 
 
