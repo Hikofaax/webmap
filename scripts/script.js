@@ -198,17 +198,12 @@ L.marker([ar,aq], {icon: customIcon(31)}).addTo(Icons["Bank"]).bindPopup('Fleeca
 var as = -250;
 var at = -620;
 
-L.marker([as,at], {icon: customIcon(32)}).addTo(Icons["Jewelry"]).bindPopup('Bling Bling');
-
-var au = -150;
-var av = -850;
-
-L.marker([au,av], {icon: customIcon(32)}).addTo(Icons["Jewelry"]).bindPopup('Vangelico Jewerly');
+L.marker([as,at], {icon: customIcon(32)}).addTo(Icons["Jewelry"]).bindPopup('Vangelico Jewerly');
 
 var aw = -630;
 var ax = -530;
 
-L.marker([aw,ax], {icon: customIcon(32)}).addTo(Icons["Gouvernement"]).bindPopup('Government of Los Santos');
+L.marker([aw,ax], {icon: customIcon(11}).addTo(Icons["Gouvernement"]).bindPopup('Government of Los Santos');
 
 
 
